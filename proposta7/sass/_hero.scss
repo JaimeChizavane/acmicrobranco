@@ -23,6 +23,13 @@
     }
 }
 
+.transbox {
+  margin: 10px;
+  background-color: #ffffff;
+  border: 0px solid black;
+  opacity: 0.6;
+}
+
 .hero__text__title {
     margin-bottom: 28px;
 
@@ -38,6 +45,7 @@
         color: $white-color;
         font-weight: 700;
         margin-top: 10px;
+        
     }
 }
 
