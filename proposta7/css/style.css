@@ -1,10 +1,5 @@
 /******************************************************************
-  Template Name: HVAC
-  Description: HVAC Car Dealer HTML Template
-  Author: Colorlib
-  Author URI: https://www.colorlib.com
-  Version: 1.0
-  Created: Colorlib
+  
 ******************************************************************/
 
 /*------------------------------------------------------------------
@@ -383,11 +378,13 @@ ol {
 }
 
 .header__nav {
+    /*background-color: #d1d3d4;*/
 	text-align: right;
 	padding: 32px 0 33px;
 }
 
 .header__logo {
+    /*background-color: #d1d3d4;*/
 	padding: 30px 0;
 }
 
@@ -397,12 +394,14 @@ ol {
 
 .header__menu {
 	display: inline-block;
+    /*background-color: #d1d3d4;*/
 }
 
 .header__menu ul li {
 	list-style: none;
 	display: inline-block;
 	margin-right: 60px;
+    margin-top: 60px;
 	position: relative;
 }
 
@@ -481,6 +480,7 @@ ol {
 
 .header__nav__widget {
 	display: inline-block;
+
 }
 
 .header__nav__widget .header__nav__widget__btn {
@@ -579,6 +579,7 @@ ol {
 .hero__tab .nav-tabs {
 	border-bottom: none;
 }
+
 
 .hero__tab .nav-tabs .nav-item {
 	margin-bottom: 5px;
@@ -3147,6 +3148,11 @@ ol {
 @media only screen and (min-width: 1200px) {
 	.container {
 		max-width: 1170px;
+       
+	}
+    .container1 {
+		max-width: 1170px;
+       background-color: #d1d3d4;
 	}
 }
 
@@ -3227,6 +3233,11 @@ ol {
 	}
 	.header .container {
 		position: relative;
+        
+	}
+    .header .container1 {
+		position: relative;
+        
 	}
 	.canvas__open {
 		display: block;
@@ -3461,6 +3472,9 @@ ol {
 		display: block;
 	}
 	.header .container {
+		position: relative;
+	}
+    .header .container1 {
 		position: relative;
 	}
 	.canvas__open {
